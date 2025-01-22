@@ -5,7 +5,7 @@ import { supabase } from './lib/supabase';
 
 // Definer server URL baseret på miljø
 const SERVER_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://din-app.railway.app'  // Opdater denne URL med din Railway URL
+  ? 'https://sb1-jabbthem-production.up.railway.app'  // Opdater denne URL med din Railway URL
   : 'http://localhost:8080';
 
 interface Transaction {
